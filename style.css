@@ -32,20 +32,29 @@ body {
   margin-bottom: 34px;
 }
 .help-section {
+  width: 550px;
   text-align: center;
   margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .copyright-section {
+  width: 550px;
   text-align: center;
   color: white;
   margin-bottom: 29px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .language-section {
+  width: 550px;
   margin-top: 0px;
   text-align: center;
   color: white;
   font-size: 16px;
   font-family: Lato;
+  margin-left: auto;
+  margin-right: auto;
 }
 h1 {
   color: #333333;
