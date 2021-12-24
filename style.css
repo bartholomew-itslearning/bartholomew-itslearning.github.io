@@ -1,0 +1,138 @@
+﻿@font-face {
+  font-family: Lato; src: url("Lato-Regular.ttf");
+}
+body {
+  background-color: #444059;
+}
+.main-section {
+  margin-top: 32px;
+  width: 550px;
+  height: 390px;
+  background-color: white;
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 5px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.info-section {
+  margin-top: 32px;
+  width: 538px;
+  height: 74px;
+  background-color: white;
+  padding-left: 51px;
+  padding-right: 51px;
+  padding-top: 16.5px;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 34px;
+}
+.help-section {
+  text-align: center;
+  margin-bottom: 0px;
+}
+.copyright-section {
+  text-align: center;
+  color: white;
+  margin-bottom: 29px;
+}
+.language-section {
+  margin-top: 0px;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  font-family: Lato;
+}
+h1 {
+  color: #333333;
+  font-family: Lato;
+  font-weight: normal;
+  font-size: 37px;
+  margin-top: 11px;
+  margin-bottom: -1.7px;
+}
+h2 {
+  color: #645862;
+  font-family: Lato;
+  font-weight: normal;
+  font-size: 23px;
+  display: inline;
+}
+.link-1 {
+  text-decoration: none;
+  color: #0055b0;
+  margin-left: 10px;
+}
+.link-2 {
+  text-decoration: none;
+  color: white;
+  font-family: Lato;
+  font-size: 16px;
+}
+.link-3 {
+  text-decoration: none;
+  color: white;
+  font-family: Lato;
+  font-size: 16px;
+}
+.link-3:hover {
+  text-decoration: underline;
+}
+.text-1 {
+  color: #333333;
+  font-family: Lato;
+  font-size: 13px;
+}
+.text-2 {
+  color: #333333;
+  font-family: Lato;
+  font-size: 16px;
+  margin-top: 3px;
+}
+.text-copyright {
+  color: white;
+  font-family: Lato;
+  font-size: 13px;
+}
+.list-item {
+  list-style: none;
+  display: inline-block;
+  padding: 5px;
+}
+.input-box {
+  border-radius: 3px;
+  border-width: 1px;
+  border-color: #dddddd;
+  border-style: solid;
+  width: 532px;
+  height: 38px;
+  font-size: 16px;
+  font-family: Lato;
+  text-align: center;
+  padding-bottom: 6px;
+  margin-bottom: 8px;
+}
+.sign-in-button {
+  border-radius: 3px;
+  border-width: 1px;
+  border-color: #dddddd;
+  border-style: solid;
+  background-color: #008859;
+  width: 538px;
+  height: 42px;
+  font-size: 16px;
+  font-family: Lato;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  padding-bottom: 6px;
+  margin-bottom: 8px;
+  cursor:pointer;
+}
+.sign-in-button:hover {
+  background-color: #18645c;
+}
