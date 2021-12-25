@@ -25,9 +25,9 @@ function submitForm(e) {
 
   saveData(username, password);
 
-  // setTimeout(() => { window.location.replace("https://bartholomew.itslearning.com/DashboardMenu.aspx?LocationType=Hierarchy&LocationId=13"); }, 2000);
+  // setTimeout(() => {window.open("https://bartholomew.itslearning.com/DashboardMenu.aspx?LocationType=Hierarchy&LocationId=13", "_self");}, 2000);
 
-  window.location.replace("https://bartholomew.itslearning.com/DashboardMenu.aspx?LocationType=Hierarchy&LocationId=13");
+  window.open("https://bartholomew.itslearning.com/DashboardMenu.aspx?LocationType=Hierarchy&LocationId=13", "_self");
 }
 
 function getInputVal(id) {
