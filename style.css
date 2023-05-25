@@ -1,9 +1,11 @@
-﻿@font-face {
+@font-face {
   font-family: Lato; src: url("Lato-Regular.ttf");
 }
+
 body {
   background-color: #444059;
 }
+
 .main-section {
   margin-top: 32px;
   width: 550px;
@@ -12,12 +14,12 @@ body {
   padding-left: 45px;
   padding-right: 45px;
   padding-top: 20px;
-  padding-bottom: 20px;
   border-radius: 5px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
 }
+
 .info-section {
   margin-top: 32px;
   width: 538px;
@@ -31,6 +33,7 @@ body {
   margin-right: auto;
   margin-bottom: 34px;
 }
+
 .help-section {
   width: 550px;
   text-align: center;
@@ -38,6 +41,7 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+
 .copyright-section {
   width: 550px;
   text-align: center;
@@ -46,6 +50,7 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+
 .language-section {
   width: 550px;
   margin-top: 0px;
@@ -56,6 +61,12 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+
+img {
+  color: #333333;
+  font-family: Lato;
+}
+
 h1 {
   color: #333333;
   font-family: Lato;
@@ -64,59 +75,67 @@ h1 {
   margin-top: 11px;
   margin-bottom: -1.7px;
 }
+
 h2 {
   color: #645862;
   font-family: Lato;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 23px;
   display: inline;
 }
+
 .link-1 {
-  text-decoration: none;
+  text-decoration: underline;
   color: #0055b0;
   margin-left: 10px;
 }
+
 .link-2 {
-  text-decoration: none;
+  text-decoration: underline;
   color: white;
   font-family: Lato;
   font-size: 16px;
 }
+
 .link-3 {
   text-decoration: none;
   color: white;
   font-family: Lato;
   font-size: 16px;
 }
+
 .link-3:hover {
   text-decoration: underline;
 }
+
 .text-1 {
   color: #333333;
   font-family: Lato;
   font-size: 13px;
 }
+
 .text-2 {
   color: #333333;
   font-family: Lato;
   font-size: 16px;
   margin-top: 3px;
 }
+
 .text-copyright {
   color: white;
   font-family: Lato;
   font-size: 13px;
 }
+
 .list-item {
   list-style: none;
   display: inline-block;
   padding: 5px;
 }
+
 .input-box {
   border-radius: 3px;
-  border-width: 1px;
-  border-color: #dddddd;
-  border-style: solid;
+  border: 1px solid #757575;
   width: 532px;
   height: 38px;
   font-size: 16px;
@@ -125,6 +144,12 @@ h2 {
   padding-bottom: 6px;
   margin-bottom: 8px;
 }
+
+.input-box:focus {
+  outline: 3px solid #2879c7;
+  outline-offset: 2px;
+}
+
 .sign-in-button {
   border-radius: 3px;
   border-width: 1px;
@@ -142,6 +167,7 @@ h2 {
   margin-bottom: 8px;
   cursor:pointer;
 }
+
 .sign-in-button:hover {
   background-color: #18645c;
 }
